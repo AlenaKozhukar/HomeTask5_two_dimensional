@@ -1,0 +1,15 @@
+D:\Курс Разработчик\Знакомство с языками программирования\HomeTask5_2D_arrays\HomeTask5_two_dimensional\bin\Debug\net8.0\HomeTask5_two_dimensional.exe
+D:\Курс Разработчик\Знакомство с языками программирования\HomeTask5_2D_arrays\HomeTask5_two_dimensional\bin\Debug\net8.0\HomeTask5_two_dimensional.deps.json
+D:\Курс Разработчик\Знакомство с языками программирования\HomeTask5_2D_arrays\HomeTask5_two_dimensional\bin\Debug\net8.0\HomeTask5_two_dimensional.runtimeconfig.json
+D:\Курс Разработчик\Знакомство с языками программирования\HomeTask5_2D_arrays\HomeTask5_two_dimensional\bin\Debug\net8.0\HomeTask5_two_dimensional.dll
+D:\Курс Разработчик\Знакомство с языками программирования\HomeTask5_2D_arrays\HomeTask5_two_dimensional\bin\Debug\net8.0\HomeTask5_two_dimensional.pdb
+D:\Курс Разработчик\Знакомство с языками программирования\HomeTask5_2D_arrays\HomeTask5_two_dimensional\obj\Debug\net8.0\HomeTask5_two_dimensional.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс Разработчик\Знакомство с языками программирования\HomeTask5_2D_arrays\HomeTask5_two_dimensional\obj\Debug\net8.0\HomeTask5_two_dimensional.AssemblyInfoInputs.cache
+D:\Курс Разработчик\Знакомство с языками программирования\HomeTask5_2D_arrays\HomeTask5_two_dimensional\obj\Debug\net8.0\HomeTask5_two_dimensional.AssemblyInfo.cs
+D:\Курс Разработчик\Знакомство с языками программирования\HomeTask5_2D_arrays\HomeTask5_two_dimensional\obj\Debug\net8.0\HomeTask5_two_dimensional.csproj.CoreCompileInputs.cache
+D:\Курс Разработчик\Знакомство с языками программирования\HomeTask5_2D_arrays\HomeTask5_two_dimensional\obj\Debug\net8.0\HomeTask5_two_dimensional.sourcelink.json
+D:\Курс Разработчик\Знакомство с языками программирования\HomeTask5_2D_arrays\HomeTask5_two_dimensional\obj\Debug\net8.0\HomeTask5_two_dimensional.dll
+D:\Курс Разработчик\Знакомство с языками программирования\HomeTask5_2D_arrays\HomeTask5_two_dimensional\obj\Debug\net8.0\refint\HomeTask5_two_dimensional.dll
+D:\Курс Разработчик\Знакомство с языками программирования\HomeTask5_2D_arrays\HomeTask5_two_dimensional\obj\Debug\net8.0\HomeTask5_two_dimensional.pdb
+D:\Курс Разработчик\Знакомство с языками программирования\HomeTask5_2D_arrays\HomeTask5_two_dimensional\obj\Debug\net8.0\HomeTask5_two_dimensional.genruntimeconfig.cache
+D:\Курс Разработчик\Знакомство с языками программирования\HomeTask5_2D_arrays\HomeTask5_two_dimensional\obj\Debug\net8.0\ref\HomeTask5_two_dimensional.dll
