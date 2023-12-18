@@ -1,10 +1,5 @@
-﻿//Задача 1: Напишите программу, которая на вход принимает позиции элемента 
-//в двумерном массиве, и возвращает значение этого элемента или же указание, 
-//что такого элемента нет.
-
-//7 8 9
-//5 1 3  [1,2] => 3 
-//0 6 4
+﻿// Задача 2: Задайте двумерный массив. Напишите программу, 
+// которая поменяет местами первую и последнюю строку массива.
 
 
 int [,] array = new int[3,3];
@@ -20,8 +15,6 @@ void CreateArray()
     }
 }
 
-
-
 void PrintArray()
 {
     for (int i = 0; i < array.GetLength(0); i++)
@@ -35,30 +28,31 @@ void PrintArray()
     System.Console.WriteLine();
 }
 
-int ReadNumber()
+void ChangeArray()
 {
-    Console.WriteLine("Введите значение индекса элемента");
-    int num = Convert.ToInt32(Console.ReadLine());
-    return num;
-}
-
-void FindElement()
-{
-    int num1 = ReadNumber();
-    int num2 = ReadNumber();
+    int temp;
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            if(i==num1 && j==num2)
+            if (i > 0 && i < array.GetLength(1))
             {
-                Console.WriteLine("по заданному индексу находится число " + array[num1,num2]);
+                temp = array[i, j];
+                array[i, j] = array[i, j];
+                array[i, j] = temp;
+            }
+            else
+            {
+                temp = array[i, j];
+                array[i, j] = array[(array.GetLength(1) - 1), j];
+                array[(array.GetLength(1) - 1), j] = temp;
             }
         }
+        System.Console.WriteLine();
     }
 }
 
-
 CreateArray();
 PrintArray();
-FindElement();
+ChangeArray();
+PrintArray();
