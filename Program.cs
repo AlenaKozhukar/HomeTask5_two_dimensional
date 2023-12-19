@@ -3,6 +3,7 @@
 
 
 int [,] array = new int[5,3];
+int [] array2 = new int [array.GetLength(0)];
 
 void CreateArray()
 {
@@ -29,21 +30,48 @@ void PrintArray()
 }
 
 
-void SumStrElArray()
+void SumElStrArray()
 {
     for (int i = 0; i < array.GetLength(0);i++)
     {
         int sumStr = 0;
         for (int j = 0; j < array.GetLength(1);j++)
         {
-            sumStr = sumStr + array[i,j];
+            sumStr += array[i,j];
         }
-        System.Console.WriteLine("Сумма = "+ sumStr);
+        array2[i] = sumStr;
     }
-    System.Console.WriteLine();
 }
+
+void PrintArray2()
+{
+    for (int i =0; i<array2.Length; i++)
+    {
+        System.Console.Write(array2[i] + " ");
+    }
+}
+
+
+
+void PrintStrMinSum()
+{
+int min = array2[0];
+for (int i = 0; i < array2.Length; i++)
+{  
+    if (array2[i] < min)
+    {
+        min = array2[i];
+        int indexMin = Convert.ToInt32(i);
+        Console.WriteLine(indexMin);
+    }
+}
+    Console.WriteLine();
+}
+
 
 
 CreateArray();
 PrintArray();
-SumStrElArray();
+SumElStrArray();
+PrintArray2();
+PrintStrMinSum();
