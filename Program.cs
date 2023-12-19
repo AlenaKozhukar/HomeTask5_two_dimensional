@@ -48,8 +48,8 @@ void ChangeArray()
                 array[(array.GetLength(1) - 1), j] = temp;
             }
         }
-        System.Console.WriteLine();
     }
+    System.Console.WriteLine();
 }
 
 CreateArray();
