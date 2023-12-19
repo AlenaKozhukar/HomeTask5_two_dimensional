@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HomeTask5_two_dimensional")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d60628caaf374d94a7a3e1ada69c2ef59de3ac36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fd94cfdc805f76cc3cf0eee9a2e64ef00e518e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("HomeTask5_two_dimensional")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HomeTask5_two_dimensional")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
