@@ -29,7 +29,6 @@ void PrintArray()
     System.Console.WriteLine();
 }
 
-
 void SumElStrArray()
 {
     for (int i = 0; i < array.GetLength(0);i++)
@@ -51,20 +50,20 @@ void PrintArray2()
     }
 }
 
-
+Console.WriteLine();
 
 void PrintStrMinSum()
 {
-int min = array2[0];
-for (int i = 0; i < array2.Length; i++)
-{  
-    if (array2[i] < min)
-    {
-        min = array2[i];
-        int indexMin = Convert.ToInt32(i);
-        Console.WriteLine(indexMin);
+    int min = array2[0];
+    for (int i = 0; i < array2.Length; i++)
+    {  
+        if (array2[i] < min)
+        {
+            min = array2[i];
+            int indexMin = Convert.ToInt32(i);
+            Console.WriteLine("индекс строки с минимальной суммой элементов: " + indexMin);
+        }
     }
-}
     Console.WriteLine();
 }
 
@@ -74,4 +73,5 @@ CreateArray();
 PrintArray();
 SumElStrArray();
 PrintArray2();
+System.Console.WriteLine();
 PrintStrMinSum();
