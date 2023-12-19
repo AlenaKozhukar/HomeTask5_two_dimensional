@@ -54,14 +54,14 @@ Console.WriteLine();
 
 void PrintStrMinSum()
 {
-    int min = array2[0];
+    int minSum = array2[0];
     for (int i = 0; i < array2.Length; i++)
     {  
-        if (array2[i] < min)
+        if (array2[i] < minSum)
         {
-            min = array2[i];
+            minSum = array2[i];
             int indexMin = Convert.ToInt32(i);
-            Console.WriteLine("индекс строки с минимальной суммой элементов: " + indexMin);
+            Console.WriteLine("индекс строки, где минимальная сумма элементов: " + indexMin);
         }
     }
     Console.WriteLine();
