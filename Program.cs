@@ -27,10 +27,6 @@ void PrintArray()
     }
     System.Console.WriteLine();
 }
-
-void ChangeArray()
-{
-    int temp;
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
@@ -43,16 +39,4 @@ void ChangeArray()
             }
             else
             {
-                temp = array[i, j];
-                array[i, j] = array[(array.GetLength(1) - 1), j];
-                array[(array.GetLength(1) - 1), j] = temp;
-            }
-        }
-    }
-    System.Console.WriteLine();
-}
 
-CreateArray();
-PrintArray();
-ChangeArray();
-PrintArray();
