@@ -6,7 +6,6 @@
 //5 1 3  [1,2] => 3 
 //0 6 4
 
-
 int [,] array = new int[3,3];
 
 void CreateArray()
@@ -19,8 +18,6 @@ void CreateArray()
         }
     }
 }
-
-
 
 void PrintArray()
 {
