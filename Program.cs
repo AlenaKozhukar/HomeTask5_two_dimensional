@@ -42,8 +42,9 @@ int ReadNumber()
     return num;
 }
 
-void FindElement()
+bool FindElement()
 {
+    bool isFind = false;
     int num1 = ReadNumber();
     int num2 = ReadNumber();
     for (int i = 0; i < array.GetLength(0); i++)
@@ -53,12 +54,27 @@ void FindElement()
             if(i==num1 && j==num2)
             {
                 Console.WriteLine("по заданному индексу находится число " + array[num1,num2]);
+                isFind = true;
             }
         }
     }
+    return isFind;
 }
 
+void NegativeResult(bool isFind)
+{
+    bool result = isFind;
+    if (result == true)
+    {
+        Console.WriteLine();
+    }
+    else
+    {
+        Console.WriteLine("По заданному индексу элемент отсутствует");
+    }
+}
 
 CreateArray();
 PrintArray();
 FindElement();
+NegativeResult(true);
